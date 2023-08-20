@@ -1,3 +1,5 @@
+# print(len([w for w in input() if w in "aeiou"]))
+
 word = input('Enter a word: ')
 
 vowels = 0
