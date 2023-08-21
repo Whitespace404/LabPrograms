@@ -18,7 +18,3 @@ for name in names:
         voweless_names.append(name)
 
 print(voweless_names)
-            
-
-
-            

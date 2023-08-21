@@ -10,3 +10,5 @@ if sum_of_cubes == n:
     print(n, "is an Armstrong Number")
 else:
     print(n, "is not an Armstrong Number")
+
+# is_armstrong = lambda n: n == sum(int(digit) ** len(str(n)) for digit in str(n))

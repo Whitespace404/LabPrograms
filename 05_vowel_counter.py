@@ -1,6 +1,4 @@
-# print(len([w for w in input() if w in "aeiou"]))
-
-word = input('Enter a word: ')
+word = input("Enter a word: ")
 
 vowels = 0
 for letter in word:
@@ -8,3 +6,5 @@ for letter in word:
         vowels += 1
 
 print(vowels)
+
+# print(len(l for l in input() if l in 'aeiou'))

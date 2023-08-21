@@ -9,7 +9,3 @@ for i in range(1, n + 1):
     sum_ = a + b
     b = a
     a = sum_
-    
-    
-
-

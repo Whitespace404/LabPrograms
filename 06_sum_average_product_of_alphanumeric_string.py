@@ -10,7 +10,7 @@ for letter in string:
         product *= int(letter)
         digits += 1
 
-average = sum_ / av_denominator
+average = sum_ / digits
 
 print("Sum=", sum_)
 print("Average=", average)

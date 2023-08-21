@@ -1,6 +1,6 @@
-l = int(input("Enter the length of the triangle: "))
+l = input("Enter a word")
 
-for i in range(l + 1):
+for i in range(len(l) + 1):
     for j in range(i):
-        print("*", end='')
+        print(l[j], end="")
     print()
